@@ -248,10 +248,11 @@ ol.commentlist {
 
 .soundcloud {
   color: #777;
+  margin-top: 25px;
 }
 
 .soundcloud a {
-  color: orange;
+  color: #f50;
 }
 
 
