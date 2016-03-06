@@ -109,7 +109,7 @@ p.text-center.bg-danger {
   padding: 5px;
   border: 1px solid #C284C4;
   border-radius: 4px;
-  box-shadow: 2px 2px 7px #888888;
+  box-shadow: 2px 2px 7px #888;
 }
 
 /*contact form*/
@@ -128,12 +128,13 @@ input[type="submit"] {
   color: #fff;
   margin-top: 4px;
   letter-spacing: 1px;
-  /*width: 100%;*/
+  width: 100%;
 }
 
 input[type="text"].wpcf7-form-control,
 input[type="email"] {
   width: 367px;
+  height: 33px;
 }
 
 div.wpcf7-validation-errors {
