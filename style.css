@@ -128,13 +128,20 @@ input[type="submit"] {
   color: #fff;
   margin-top: 4px;
   letter-spacing: 1px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 input[type="text"].wpcf7-form-control,
 input[type="email"] {
   width: 367px;
   height: 33px;
+}
+
+/*unify color of input fields*/
+input[type="text"].wpcf7-form-control,
+input[type="email"],
+textarea {
+  border: 1px solid #bbb;
 }
 
 div.wpcf7-validation-errors {
