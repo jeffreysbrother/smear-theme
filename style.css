@@ -137,8 +137,8 @@ input[type="email"] {
   height: 33px;
 }
 
-/*unify color of input fields*/
-input[type="text"].wpcf7-form-control,
+/*unify color of input fields (contact form 7 AND comments area)*/
+input[type="text"],
 input[type="email"],
 textarea {
   border: 1px solid #bbb;
