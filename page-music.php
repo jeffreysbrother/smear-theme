@@ -48,12 +48,13 @@
 
 
 <!-- button -->
-<br>
-<button type="button" class="btn btn-default aes-button" data-toggle="modal" data-target="#Modal2" data-whatever="Why I don't trust aestheticians">Why I don't trust aestheticians</button>
+<!-- <br>
+<button type="button" class="btn btn-default aes-button" data-toggle="modal" data-target="#Modal2" data-whatever="Why I don't trust aestheticians">Why I don't trust aestheticians</button> -->
 
 
 
 <!-- modal for bottom aesthetics button -->
+<?php /*
 <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -78,6 +79,8 @@
     </div>
   </div>
 </div>
+
+*/?>
 
 
 
