@@ -142,6 +142,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   border: 1px solid #bbb;
+  padding-left: 6px;
 }
 
 div.wpcf7-validation-errors {
