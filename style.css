@@ -16,6 +16,11 @@ body {
   padding-top: 35px;
 }
 
+/*increase size of all paragraph elements*/
+p {
+  font-size: 15px;
+}
+
 .spacer {
   margin-top: 45px;
 }
