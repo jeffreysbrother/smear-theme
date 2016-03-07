@@ -28,7 +28,7 @@ $randomArray = array(
   'something food',
   'PHP',
   'all your base',
-  'Math.random()&#59;'
+  'Math.random()&#59;',
   'white boy'
 
 );
