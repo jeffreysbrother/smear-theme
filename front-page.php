@@ -2,10 +2,9 @@
 // variables for heading:
 $randomArray = array(
   'sometimes I get bored',
-  'white guilt, etc',
+  'white guilt, etc.',
   'previously elsewhere',
   'theoretical flim-flam',
-  'not my bread',
   'sister shemale',
   'John Stamos?',
   'spending long at the pumpkin patch',
@@ -32,7 +31,9 @@ $randomArray = array(
   'it&#39;s warm, even',
   'pancake princess',
   'jealousy pronoun live',
-  'fist behind the mountain'
+  'fist behind the mountain',
+  'fetish pump',
+  'metaphysics LOL'
 );
 
 
