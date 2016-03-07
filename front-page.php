@@ -14,7 +14,20 @@ $randomArray = array(
   'Long Spot',
   'Birdwine',
   '...or how it appears to you',
-  'in world'
+  'in world',
+  'silky electronic deposit',
+  'female opens the door',
+  'random thing',
+  'left-handed girl',
+  'hetero',
+  'something something about conceptual containment',
+  'bitch fever',
+  'a small fire in a duck',
+  'toothwig supreme',
+  'non-personality character',
+  'getting ugly',
+  'skinny in the 80s'
+
 
 );
 
