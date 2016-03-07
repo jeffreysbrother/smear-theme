@@ -199,6 +199,10 @@ ul.post-categories li a:hover {
 
 div.nav-previous.alignleft,
 div.nav-next.alignright {
+  display: inline;
+}
+
+div.pagination-div {
   text-align: center;
 }
 
