@@ -250,16 +250,20 @@ ol.commentlist {
 .soundcloud {
   color: #777;
   margin-top: 25px;
-  display: inline;
+  /*display: inline-block;*/
 }
 
 .soundcloud a {
   color: #f50;
 }
 
-/*img#image {
+.table-row {
+  display: table;
+}
 
-}*/
+.table-col {
+  display: table-cell;
+}
 
 
 @media screen and (max-width: 991px) {
