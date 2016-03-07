@@ -46,7 +46,7 @@
             <p>Your browser does not support the <code>audio</code> element.</p>
           </audio>
 
-          <h5 class="soundcloud">...MORE ON <a href="https://soundcloud.com/jeffreysbrother">SOUNDCLOUD</a></h5><iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fjeffreysbrother&color=white_orange&size=32" style="width: 32px; height: 32px;"></iframe>
+          <h5 class="soundcloud">...MORE ON <a href="https://soundcloud.com/jeffreysbrother">SOUNDCLOUD</a><iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fjeffreysbrother&color=white_orange&size=32" style="width: 32px; height: 32px;"></iframe></h5>
 
 
 <!-- button -->
