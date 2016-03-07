@@ -197,6 +197,11 @@ ul.post-categories li a:hover {
   color: orangered;
 }
 
+div.nav-previous.alignleft,
+div.nav-next.alignright {
+  text-align: center;
+}
+
 /*blog post comment styles*/
 
 div#respond h3,
