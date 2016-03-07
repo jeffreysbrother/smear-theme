@@ -29,8 +29,11 @@ $randomArray = array(
   'PHP',
   'all your base',
   'Math.random()&#59;',
-  'white boy'
-
+  'white boy',
+  'all the way to Fountain Valley',
+  'not allergic to Brazil nuts',
+  'it&#39;s warm, even',
+  'pancake princess'
 );
 
 
