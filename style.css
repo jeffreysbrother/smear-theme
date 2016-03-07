@@ -317,6 +317,10 @@ ol.commentlist {
   p.lead.text-center {
     margin-bottom: 10px;
   }
+
+  blockquote {
+    margin: 20px 0 20px 10px;
+  }
 }
 @media screen and (max-width: 767px) {
   .smallish {
