@@ -3,8 +3,19 @@
 $randomArray = array(
   'sometimes I get bored',
   'something else or whatever',
-  'etc',
-  'previously elsewhere'
+  'white guilt, etc',
+  'previously elsewhere',
+  'theoretical flim-flam',
+  'not my bread',
+  'sister shemale',
+  'John Stamos?',
+  'spending long at pumpkin patch',
+  'Spruce Goose, the band',
+  'Long Spot',
+  'Birdwine',
+  '...or how it appears to you',
+  'in world'
+
 );
 
 
@@ -21,7 +32,7 @@ $randomArray = array(
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1 class="text-center">I'm James</h1>
-          <p class="lead text-center text-muted"><?php echo $randomArray[array_rand($randomArray)]; ?></p>
+          <p class="lead text-center text-muted"><?php echo $randomArray[rand(0, count($randomArray)-1)]; ?></p>
         </div>
       </div>
 
