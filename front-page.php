@@ -33,7 +33,9 @@ $randomArray = array(
   'jealousy pronoun live',
   'fist behind the mountain',
   'fetish pump',
-  'metaphysics LOL'
+  'metaphysics LOL',
+  'a Democrat walks into a bar',
+  'Republican daydreams'
 );
 
 
