@@ -200,10 +200,13 @@ ul.post-categories li a:hover {
 div.nav-previous.alignleft,
 div.nav-next.alignright {
   display: inline;
+  font-weight: bold;
+  padding: 8px;
 }
 
 div.pagination-div {
   text-align: center;
+  margin-top: 15px;
 }
 
 /*blog post comment styles*/
