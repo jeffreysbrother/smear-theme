@@ -1,3 +1,17 @@
+<?php
+// variables for heading:
+$randomArray = array(
+  'sometimes I get bored',
+  'something else or whatever',
+  'etc',
+  'previously elsewhere'
+);
+
+
+
+
+ ?>
+
 <?php get_header(); ?>
 
 <div class="container last-paragraph">
@@ -7,7 +21,7 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1 class="text-center">I'm James</h1>
-          <p class="lead text-center text-muted">sometimes I get bored</p>
+          <p class="lead text-center text-muted"><?php echo $randomArray[array_rand($randomArray)]; ?></p>
         </div>
       </div>
 
