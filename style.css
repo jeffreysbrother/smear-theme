@@ -201,7 +201,7 @@ ol.commentlist {
   /******* adds vertical space between thumbnails********/
   margin-top: 3px; }
 
-.james {
+.james-img {
   margin-bottom: 5px;
   margin-right: 15px;
   float: left; }
@@ -251,7 +251,7 @@ ol.commentlist {
   .blueimp-gallery > .title {
     font-size: 16px; }
 
-  .james {
+  .james-img {
     margin-bottom: 0px;
     margin-right: 10px;
     max-width: 135px; } }
