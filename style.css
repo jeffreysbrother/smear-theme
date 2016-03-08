@@ -40,18 +40,9 @@ p {
   color: #777;
   padding-bottom: 7px;
   margin-top: 10px;
-  border-bottom: 1px solid #bbb;
   margin-bottom: 30px;
+  border-bottom: 1px solid #bbb;
   max-width: 300px; }
-
-.smallish {
-  /******* adds vertical space between thumbnails********/
-  margin-top: 3px; }
-
-.james {
-  margin-bottom: 5px;
-  margin-right: 15px;
-  float: left; }
 
 .go-back {
   margin-top: 55px; }
@@ -212,9 +203,17 @@ ol.commentlist {
 .soundcloud {
   color: #777;
   margin-top: 25px; }
+  .soundcloud a {
+    color: #f50; }
 
-.soundcloud a {
-  color: #f50; }
+.smallish {
+  /******* adds vertical space between thumbnails********/
+  margin-top: 3px; }
+
+.james {
+  margin-bottom: 5px;
+  margin-right: 15px;
+  float: left; }
 
 @media screen and (max-width: 991px) {
   .gone p {
