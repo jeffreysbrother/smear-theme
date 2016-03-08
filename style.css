@@ -136,7 +136,7 @@ li.current-menu-item a:link,
 li.current-menu-item a:visited {
   background-color: #e7e7e7; }
 
-/*blog styles**************************************/
+/*blog styles***********************************/
 h2 a.blog-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -166,7 +166,7 @@ blockquote {
     blockquote {
       margin: 20px 0 20px 10px; } }
 
-/*comment styles************************************/
+/*comment styles******************************/
 div#respond h3 {
   text-transform: uppercase;
   font-size: 18px;
