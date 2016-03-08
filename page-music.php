@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-sm-4 center last-paragraph">
 
-          <h1 class="originals">original music</h1>
+          <h1 class="mellow-title">original music</h1>
 
           <h5>OP. 1 NO. 1</h5>
           <audio src="/wp-content/themes/smear/audio/Op1_No1.mp3" controls>
@@ -47,7 +47,7 @@
           </audio>
 
           <h5 class="soundcloud">...MORE ON <a href="https://soundcloud.com/jeffreysbrother">SOUNDCLOUD</a>
-          </h5>              
+          </h5>
 
 
 

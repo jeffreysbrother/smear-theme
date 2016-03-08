@@ -35,17 +35,15 @@ p {
 .last-paragraph {
   padding-bottom: 50px; }
 
-.originals {
+.mellow-title {
   font-weight: 200;
   color: #777;
   padding-bottom: 7px;
   margin-top: 10px;
   margin-bottom: 30px;
   border-bottom: 1px solid #bbb;
-  max-width: 300px; }
-
-.go-back {
-  margin-top: 55px; }
+  max-width: 300px;
+  text-transform: lowercase; }
 
 .footer {
   position: absolute;
@@ -118,10 +116,6 @@ div.wpcf7-mail-sent-ok {
 
 div.wpcf7-response-output {
   text-align: center; }
-
-h1.entry-title.originals {
-  max-width: 367px;
-  text-transform: lowercase; }
 
 li.current-menu-item a:link,
 li.current-menu-item a:visited {

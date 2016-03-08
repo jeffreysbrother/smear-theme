@@ -34,7 +34,7 @@ p {
   padding-bottom: 50px;
 }
 
-.originals {
+.mellow-title {
   font-weight: 200;
   color: #777;
   padding-bottom: 7px;
@@ -42,8 +42,5 @@ p {
   margin-bottom: 30px;
   border-bottom: 1px solid #bbb;
   max-width: 300px;
-}
-
-.go-back {
-  margin-top: 55px;
+  text-transform: lowercase;
 }
