@@ -136,7 +136,7 @@ li.current-menu-item a:link,
 li.current-menu-item a:visited {
   background-color: #e7e7e7; }
 
-/*blog styles***********************/
+/*blog styles**************************************/
 h2 a.blog-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -145,14 +145,9 @@ h2 a.blog-link {
   h2 a.blog-link:hover {
     color: #555; }
 
-ul.post-categories {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  ul.post-categories li a {
-    text-decoration: none; }
-    ul.post-categories li a:hover {
-      color: orangered; }
+h2.archive-section {
+  font-size: 19px;
+  color: #B9723F; }
 
 div.nav-previous.alignleft,
 div.nav-next.alignright {
@@ -164,19 +159,19 @@ div.pagination-div {
   text-align: center;
   margin-top: 15px; }
 
-/*comment styles***********************/
-div#respond h3 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  color: #777; }
-
 blockquote {
   font-size: 14px;
   margin: 20px 0 20px 40px; }
   @media screen and (max-width: 991px) {
     blockquote {
       margin: 20px 0 20px 10px; } }
+
+/*comment styles************************************/
+div#respond h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: #777; }
 
 cite.fn {
   font-style: normal;
@@ -190,10 +185,6 @@ div.comment-meta a {
   border-bottom: 1px dashed #ddd; }
   .comment-body p {
     padding-top: 8px; }
-
-h2.archive-section {
-  font-size: 19px;
-  color: #B9723F; }
 
 ol.commentlist,
 ul.children {

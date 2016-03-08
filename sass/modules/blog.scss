@@ -1,4 +1,4 @@
-/*blog styles***********************/
+/*blog styles**************************************/
 
 
 // blog post title:
@@ -12,16 +12,10 @@ h2 a.blog-link {
   }
 }
 
-ul.post-categories {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li a {
-    text-decoration: none;
-    &:hover {
-      color: orangered;
-    }
-  }
+// archive title styles:
+h2.archive-section {
+  font-size: 19px;
+  color: #B9723F;
 }
 
 div.nav-previous.alignleft,
@@ -36,21 +30,21 @@ div.pagination-div {
   margin-top: 15px;
 }
 
-/*comment styles***********************/
-
-div#respond h3 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-  color: #777;
-}
-
 blockquote {
   font-size: 14px;
   margin: 20px 0 20px 40px;
   @media screen and (max-width: 991px) {
     margin: 20px 0 20px 10px;
   }
+}
+
+/*comment styles************************************/
+
+div#respond h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: #777;
 }
 
 cite.fn {
@@ -68,11 +62,6 @@ div.comment-meta a {
   p {
     padding-top: 8px;
   }
-}
-
-h2.archive-section {
-  font-size: 19px;
-  color: #B9723F;
 }
 
 ol.commentlist,
