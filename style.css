@@ -35,16 +35,6 @@ p {
 .last-paragraph {
   padding-bottom: 50px; }
 
-.mellow-title {
-  font-weight: 200;
-  color: #777;
-  padding-bottom: 7px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #bbb;
-  max-width: 300px;
-  text-transform: lowercase; }
-
 .footer {
   position: absolute;
   bottom: -5px;
@@ -116,6 +106,10 @@ div.wpcf7-mail-sent-ok {
 
 div.wpcf7-response-output {
   text-align: center; }
+
+h1.entry-title.mellow-title {
+  max-width: 367px;
+  text-transform: lowercase; }
 
 li.current-menu-item a:link,
 li.current-menu-item a:visited {
@@ -199,6 +193,15 @@ ol.commentlist {
   margin-top: 25px; }
   .soundcloud a {
     color: #f50; }
+
+.mellow-title {
+  font-weight: 200;
+  color: #777;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #bbb;
+  max-width: 300px; }
 
 .smallish {
   /******* adds vertical space between thumbnails********/
