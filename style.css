@@ -225,14 +225,13 @@ ol.commentlist {
   audio {
     margin-bottom: 8px; }
 
-  .blueimp-gallery-controls > .indicator {
+  .blueimp-gallery-controls .indicator {
     display: none; }
-
-  .blueimp-gallery-controls > .prev,
-  .blueimp-gallery-controls > .next {
+  .blueimp-gallery-controls .prev,
+  .blueimp-gallery-controls .next {
     border: none; }
 
-  .blueimp-gallery > .title {
+  .blueimp-gallery .title {
     font-size: 16px; }
 
   .james-img {

@@ -36,9 +36,6 @@
     height: 120px;
   }
 
-  // .btn-group-lg > .btn, .btn-lg {
-  //   font-size: 15px;
-  // }
 }
 
 
@@ -48,16 +45,17 @@
     margin-bottom: 8px;
   }
 
-  .blueimp-gallery-controls > .indicator {
-    display: none;
+  .blueimp-gallery-controls {
+    .indicator {
+      display: none;
+    }
+    .prev,
+    .next {
+      border: none;
+    }
   }
 
-  .blueimp-gallery-controls > .prev,
-  .blueimp-gallery-controls > .next {
-    border: none;
-  }
-
-  .blueimp-gallery > .title {
+  .blueimp-gallery .title {
     font-size: 16px;
   }
 
