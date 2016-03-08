@@ -45,6 +45,9 @@ p {
   .footer .container {
     padding-right: 15px;
     padding-left: 15px; }
+  @media screen and (max-width: 991px) {
+    .footer {
+      height: 56px; } }
 
 /* icon fonts from font-awesome
 -------------------------------------------------- */
@@ -53,6 +56,9 @@ p {
   .pull-down a {
     padding-left: 10px;
     padding-right: 10px; }
+  @media screen and (max-width: 991px) {
+    .pull-down {
+      padding-top: 13px; } }
 
 .pull-down-text {
   padding-top: 23px; }
@@ -147,6 +153,9 @@ h3#comments {
 blockquote {
   font-size: 14px;
   margin: 20px 0 20px 40px; }
+  @media screen and (max-width: 991px) {
+    blockquote {
+      margin: 20px 0 20px 10px; } }
 
 cite.fn {
   font-style: normal;
@@ -187,6 +196,10 @@ ol.commentlist {
   border-bottom: 1px solid #bbb;
   max-width: 300px; }
 
+@media (max-width: 670px) {
+  audio {
+    margin-bottom: 8px; } }
+
 .smallish {
   /******* adds vertical space between thumbnails********/
   margin-top: 3px; }
@@ -195,25 +208,21 @@ ol.commentlist {
   margin-bottom: 5px;
   margin-right: 15px;
   float: left; }
+  @media (max-width: 670px) {
+    .james-img {
+      margin-bottom: 0px;
+      margin-right: 10px;
+      max-width: 135px; } }
 
 @media screen and (max-width: 991px) {
   .gone p {
     display: none; }
 
-  .pull-down {
-    padding-top: 13px; }
-
-  .footer {
-    height: 56px; }
-
   .form-group {
     margin-bottom: 0; }
 
   p.lead.text-center {
-    margin-bottom: 10px; }
-
-  blockquote {
-    margin: 20px 0 20px 10px; } }
+    margin-bottom: 10px; } }
 @media screen and (max-width: 767px) {
   .smallish {
     width: 45%;
@@ -222,9 +231,6 @@ ol.commentlist {
   textarea#message {
     height: 120px; } }
 @media (max-width: 670px) {
-  audio {
-    margin-bottom: 8px; }
-
   .blueimp-gallery-controls .indicator {
     display: none; }
   .blueimp-gallery-controls .prev,
@@ -232,12 +238,7 @@ ol.commentlist {
     border: none; }
 
   .blueimp-gallery .title {
-    font-size: 16px; }
-
-  .james-img {
-    margin-bottom: 0px;
-    margin-right: 10px;
-    max-width: 135px; } }
+    font-size: 16px; } }
 @media (max-width: 440px) {
   textarea {
     width: 100%;

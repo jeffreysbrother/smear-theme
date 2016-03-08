@@ -9,6 +9,9 @@
     padding-right: 15px;
     padding-left: 15px;
   }
+  @media screen and (max-width: 991px) {
+      height: 56px;
+  }
 }
 
 /* icon fonts from font-awesome
@@ -18,6 +21,9 @@
   a {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  @media screen and (max-width: 991px) {
+    padding-top: 13px;
   }
 }
 

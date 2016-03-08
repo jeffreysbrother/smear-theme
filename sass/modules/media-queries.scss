@@ -3,14 +3,6 @@
     display: none;
   }
 
-  .pull-down {
-    padding-top: 13px;
-  }
-
-  .footer {
-    height: 56px;
-  }
-
   .form-group {
     margin-bottom: 0;
   }
@@ -19,9 +11,6 @@
     margin-bottom: 10px;
   }
 
-  blockquote {
-    margin: 20px 0 20px 10px;
-  }
 }
 
 
@@ -41,9 +30,6 @@
 
 
 @media (max-width: 670px) {
-  audio {
-    margin-bottom: 8px;
-  }
 
   .blueimp-gallery-controls {
     .indicator {
@@ -59,11 +45,6 @@
     font-size: 16px;
   }
 
-  .james-img {
-    margin-bottom: 0px;
-    margin-right: 10px;
-    max-width: 135px;
-  }
 }
 
 
