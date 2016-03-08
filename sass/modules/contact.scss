@@ -45,3 +45,33 @@ h1.entry-title.mellow-title {
   max-width: 367px;
   text-transform: lowercase;
 }
+
+
+// these media queries might also affect the form for blog comment submissions ////////
+@media (max-width: 440px) {
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  input[type="text"].wpcf7-form-control,
+  input[type="email"] {
+    width: 100%;
+  }
+
+  div.wpcf7-validation-errors {
+    margin-top: 0;
+  }
+
+  span.pipe {
+    display: none;
+  }
+
+  span.category-part {
+    display: block;
+  }
+}

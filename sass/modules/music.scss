@@ -16,6 +16,11 @@
   max-width: 300px;
 }
 
+// headings for song titles:
+h5 {
+  font-weight: bold;
+}
+
 audio {
   @media (max-width: 670px) {
       margin-bottom: 8px;
