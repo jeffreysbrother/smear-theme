@@ -24,7 +24,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   border: 1px solid #bbb;
-  padding-left: 6px;
+  padding-left: 5px;
 }
 
 div.wpcf7-validation-errors {
@@ -39,6 +39,7 @@ div.wpcf7-mail-sent-ok {
 div.wpcf7-response-output {
   text-align: center;
 }
+
 
 h1.entry-title.mellow-title {
   max-width: 367px;
