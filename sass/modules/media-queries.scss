@@ -1,0 +1,95 @@
+@media screen and (max-width: 991px) {
+  .gone p {
+    display: none;
+  }
+
+  .pull-down {
+    padding-top: 13px;
+  }
+
+  .footer {
+    height: 56px;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  p.text-center.bg-danger {
+    margin: 0;
+  }
+
+  p.lead.text-center {
+    margin-bottom: 10px;
+  }
+
+  blockquote {
+    margin: 20px 0 20px 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .smallish {
+    width: 45%;
+    height: 45%;
+  }
+
+  textarea#message {
+    height: 120px;
+  }
+
+  .btn-group-lg > .btn, .btn-lg {
+    font-size: 15px;
+  }
+}
+@media (max-width: 670px) {
+  audio {
+    margin-bottom: 8px;
+  }
+
+  .blueimp-gallery-controls > .indicator {
+    display: none;
+  }
+
+  .blueimp-gallery-controls > .prev,
+  .blueimp-gallery-controls > .next {
+    border: none;
+  }
+
+  .blueimp-gallery > .title {
+    font-size: 16px;
+  }
+
+  .james {
+    margin-bottom: 0px;
+    margin-right: 10px;
+    max-width: 135px;
+  }
+}
+
+@media (max-width: 440px) {
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  input[type="text"].wpcf7-form-control,
+  input[type="email"] {
+    width: 100%;
+  }
+
+  div.wpcf7-validation-errors {
+    margin-top: 0;
+  }
+
+  span.pipe {
+    display: none;
+  }
+
+  span.category-part {
+    display: block;
+  }
+}

@@ -44,8 +44,6 @@ h5 {
 .go-back {
   margin-top: 55px; }
 
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%; }
@@ -98,7 +96,6 @@ p.text-center.bg-danger {
   border-radius: 4px;
   box-shadow: 2px 2px 7px #888; }
 
-/*contact form************************/
 textarea {
   width: 367px;
   border: 1px solid #bbb; }
@@ -138,7 +135,6 @@ h1.entry-title.originals {
   max-width: 367px;
   text-transform: lowercase; }
 
-/*style nav items when current************/
 li.current-menu-item a:link,
 li.current-menu-item a:visited {
   background-color: #e7e7e7; }
@@ -213,7 +209,6 @@ ol.commentlist, ul.children {
 ol.commentlist {
   padding-left: 0; }
 
-/*music page************************/
 .aes-button {
   width: 100%;
   max-width: 300px;

@@ -1,0 +1,45 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: 35px;
+}
+
+/*increase size of all paragraph elements*/
+p {
+  font-size: 15px;
+}
+
+.spacer {
+  margin-top: 45px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.originals {
+  font-weight: 200;
+  color: #777;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+
+.smallish {
+  /******* adds vertical space between thumbnails********/
+  margin-top: 3px;
+}
+
+.james {
+  margin-bottom: 5px;
+  margin-right: 15px;
+  float: left;
+}
+
+.go-back {
+  margin-top: 55px;
+}
