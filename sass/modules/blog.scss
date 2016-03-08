@@ -1,11 +1,13 @@
 /*blog styles***********************/
 
+
+// blog post title:
 h2 a.blog-link {
   text-decoration: none;
   text-transform: uppercase;
   color: #777;
   font-family: 'Oswald', sans-serif;
-  a:hover {
+  &:hover {
     color: #555;
   }
 }
@@ -34,18 +36,13 @@ div.pagination-div {
   margin-top: 15px;
 }
 
-/*blog post comment styles***********************/
+/*comment styles***********************/
 
-h3 {
-  font-family: 'Oswald', sans-serif;
-  color: #777;
-}
-
-div#respond h3,
-h3#comments {
+div#respond h3 {
   text-transform: uppercase;
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
+  color: #777;
 }
 
 blockquote {
