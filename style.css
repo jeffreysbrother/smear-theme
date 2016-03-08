@@ -2,7 +2,7 @@
 Theme Name: Smear
 Author: James Cool
 Author URI: http://jeffreysbrother.com/
-Description: This is more of an integration test than anything else.
+Description: This is not a theme.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -40,7 +40,7 @@ h5 {
 }
 
 .smallish {
-  /***** adds vertical space between thumbnails********/
+  /******* adds vertical space between thumbnails********/
   margin-top: 3px;
 }
 
@@ -117,7 +117,7 @@ p.text-center.bg-danger {
   box-shadow: 2px 2px 7px #888;
 }
 
-/*contact form*/
+/*contact form************************/
 
 textarea {
   width: 367px;
@@ -128,12 +128,10 @@ input[type="submit"] {
   background-color: #337ab7;
   border: 1px solid transparent;
   border-color: #2e6da4;
-  /*border-radius: 4px;*/
   padding: 10px 18px;
   color: #fff;
   margin-top: 4px;
   letter-spacing: 1px;
-  /*width: 100%;*/
 }
 
 input[type="text"].wpcf7-form-control,
@@ -168,14 +166,14 @@ h1.entry-title.originals {
   text-transform: lowercase;
 }
 
-/*style nav items when current*/
+/*style nav items when current************/
 
 li.current-menu-item a:link,
 li.current-menu-item a:visited {
   background-color: #e7e7e7;
 }
 
-/*blog styles*/
+/*blog styles***********************/
 
 h2 a.blog-link {
   text-decoration: none;
@@ -214,7 +212,7 @@ div.pagination-div {
   margin-top: 15px;
 }
 
-/*blog post comment styles*/
+/*blog post comment styles***********************/
 
 h3 {
   font-family: 'Oswald', sans-serif;
@@ -244,7 +242,6 @@ div.comment-meta a {
 
 .comment-body p {
   padding-top: 8px;
-  /*padding-bottom: 4px;*/
 }
 
 .comment-body {
@@ -265,7 +262,7 @@ ol.commentlist {
   padding-left: 0;
 }
 
-/*music page*/
+/*music page************************/
 
 .aes-button {
   width: 100%;
@@ -277,7 +274,6 @@ ol.commentlist {
 .soundcloud {
   color: #777;
   margin-top: 25px;
-  /*display: inline-block;*/
 }
 
 .soundcloud a {
@@ -360,11 +356,8 @@ ol.commentlist {
     max-width: 135px;
   }
 
-  /*.about {
-    padding-left: 5px;
-    padding-right: 5px;
-  }*/
 }
+
 
 @media (max-width: 440px) {
   textarea {
