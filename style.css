@@ -19,7 +19,7 @@ body {
   /* adjust footer height */
   margin-bottom: 60px; }
 
-.container {
+body > .container {
   padding: 35px 15px 0; }
 
 h5 {
