@@ -68,6 +68,14 @@ p {
   float: none;
   display: table; }
 
+@media screen and (max-width: 991px) {
+  .gone p {
+    display: none; } }
+
+@media screen and (max-width: 991px) {
+  p.lead.text-center {
+    margin-bottom: 10px; } }
+
 textarea {
   width: 367px;
   border: 1px solid #bbb; }
@@ -203,7 +211,20 @@ ol.commentlist {
 .smallish {
   /******* adds vertical space between thumbnails********/
   margin-top: 3px; }
+  @media screen and (max-width: 767px) {
+    .smallish {
+      width: 45%;
+      height: 45%; } }
 
+@media (max-width: 670px) {
+  .blueimp-gallery-controls .indicator {
+    display: none; }
+  .blueimp-gallery-controls .prev,
+  .blueimp-gallery-controls .next {
+    border: none; }
+
+  .blueimp-gallery .title {
+    font-size: 16px; } }
 .james-img {
   margin-bottom: 5px;
   margin-right: 15px;
@@ -214,31 +235,6 @@ ol.commentlist {
       margin-right: 10px;
       max-width: 135px; } }
 
-@media screen and (max-width: 991px) {
-  .gone p {
-    display: none; }
-
-  .form-group {
-    margin-bottom: 0; }
-
-  p.lead.text-center {
-    margin-bottom: 10px; } }
-@media screen and (max-width: 767px) {
-  .smallish {
-    width: 45%;
-    height: 45%; }
-
-  textarea#message {
-    height: 120px; } }
-@media (max-width: 670px) {
-  .blueimp-gallery-controls .indicator {
-    display: none; }
-  .blueimp-gallery-controls .prev,
-  .blueimp-gallery-controls .next {
-    border: none; }
-
-  .blueimp-gallery .title {
-    font-size: 16px; } }
 @media (max-width: 440px) {
   textarea {
     width: 100%;

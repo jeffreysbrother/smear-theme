@@ -36,3 +36,9 @@
   float: none;
   display: table;
 }
+
+.gone p {
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}

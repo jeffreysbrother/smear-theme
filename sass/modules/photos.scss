@@ -1,4 +1,24 @@
 .smallish {
   /******* adds vertical space between thumbnails********/
   margin-top: 3px;
+  @media screen and (max-width: 767px) {
+    width: 45%;
+    height: 45%;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .blueimp-gallery-controls {
+    .indicator {
+      display: none;
+    }
+    .prev,
+    .next {
+      border: none;
+    }
+  }
+  .blueimp-gallery .title {
+    font-size: 16px;
+  }
 }

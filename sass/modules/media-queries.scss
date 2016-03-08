@@ -1,51 +1,5 @@
-@media screen and (max-width: 991px) {
-  .gone p {
-    display: none;
-  }
-
-  .form-group {
-    margin-bottom: 0;
-  }
-
-  p.lead.text-center {
-    margin-bottom: 10px;
-  }
-
-}
 
 
-
-@media screen and (max-width: 767px) {
-  .smallish {
-    width: 45%;
-    height: 45%;
-  }
-
-  textarea#message {
-    height: 120px;
-  }
-
-}
-
-
-
-@media (max-width: 670px) {
-
-  .blueimp-gallery-controls {
-    .indicator {
-      display: none;
-    }
-    .prev,
-    .next {
-      border: none;
-    }
-  }
-
-  .blueimp-gallery .title {
-    font-size: 16px;
-  }
-
-}
 
 
 
