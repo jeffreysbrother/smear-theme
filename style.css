@@ -145,20 +145,17 @@ h2 a.blog-link {
   text-transform: uppercase;
   color: #777;
   font-family: 'Oswald', sans-serif; }
-
-h2 a:hover {
-  color: #555; }
+  h2 a.blog-link a:hover {
+    color: #555; }
 
 ul.post-categories {
   list-style: none;
   margin: 0;
   padding: 0; }
-
-ul.post-categories li a {
-  text-decoration: none; }
-
-ul.post-categories li a:hover {
-  color: orangered; }
+  ul.post-categories li a {
+    text-decoration: none; }
+    ul.post-categories li a:hover {
+      color: orangered; }
 
 div.nav-previous.alignleft,
 div.nav-next.alignright {
@@ -192,18 +189,18 @@ cite.fn {
 div.comment-meta a {
   color: #777; }
 
-.comment-body p {
-  padding-top: 8px; }
-
 .comment-body {
   margin-bottom: 15px;
   border-bottom: 1px dashed #ddd; }
+  .comment-body p {
+    padding-top: 8px; }
 
 h2.archive-section {
   font-size: 19px;
   color: #B9723F; }
 
-ol.commentlist, ul.children {
+ol.commentlist,
+ul.children {
   list-style: none; }
 
 ol.commentlist {
