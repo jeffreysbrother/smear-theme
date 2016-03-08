@@ -5,28 +5,25 @@
   /* Set the fixed height of the footer here */
   height: 65px;
   background-color: #f5f5f5;
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
+
 
 /* icon fonts from font-awesome
 -------------------------------------------------- */
 .pull-down {
   padding-top: 20px;
-}
-.pull-down > a {
-  padding-left: 10px;
-  padding-right: 10px;
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .pull-down-text {
   padding-top: 23px;
-}
-
-.last-paragraph {
-  padding-bottom: 50px;
 }
 
 .center {
@@ -35,7 +32,8 @@
   display: table;
 }
 
-.btn-group-lg > .btn, .btn-lg {
+.btn-group-lg > .btn,
+.btn-lg {
   margin-top: 15px;
 }
 

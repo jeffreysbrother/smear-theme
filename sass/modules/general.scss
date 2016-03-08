@@ -17,6 +17,10 @@ body > .container {
   padding: 35px 15px 0;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 /*increase size of all paragraph elements*/
 p {
   font-size: 15px;
@@ -26,8 +30,8 @@ p {
   margin-top: 45px;
 }
 
-h5 {
-  font-weight: bold;
+.last-paragraph {
+  padding-bottom: 50px;
 }
 
 .originals {
