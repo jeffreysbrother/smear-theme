@@ -35,7 +35,8 @@ $randomArray = array(
   'fetish pump',
   'metaphysics LOL',
   'a Democrat walks into a bar',
-  'Republican daydreams'
+  'Republican daydream',
+  'democracy LOL'
 );
 
 
