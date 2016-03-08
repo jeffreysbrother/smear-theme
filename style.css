@@ -66,12 +66,6 @@ p {
 .btn-lg {
   margin-top: 15px; }
 
-p.text-center.bg-danger {
-  padding: 5px;
-  border: 1px solid #C284C4;
-  border-radius: 4px;
-  box-shadow: 2px 2px 7px #888; }
-
 textarea {
   width: 367px;
   border: 1px solid #bbb; }
