@@ -62,10 +62,6 @@ p {
   float: none;
   display: table; }
 
-.btn-group-lg > .btn,
-.btn-lg {
-  margin-top: 15px; }
-
 textarea {
   width: 367px;
   border: 1px solid #bbb; }
@@ -213,9 +209,6 @@ ol.commentlist {
   .form-group {
     margin-bottom: 0; }
 
-  p.text-center.bg-danger {
-    margin: 0; }
-
   p.lead.text-center {
     margin-bottom: 10px; }
 
@@ -227,10 +220,7 @@ ol.commentlist {
     height: 45%; }
 
   textarea#message {
-    height: 120px; }
-
-  .btn-group-lg > .btn, .btn-lg {
-    font-size: 15px; } }
+    height: 120px; } }
 @media (max-width: 670px) {
   audio {
     margin-bottom: 8px; }
