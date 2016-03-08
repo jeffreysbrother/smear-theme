@@ -2,8 +2,19 @@ html, body {
   overflow-x: hidden;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   padding-top: 35px;
+  /* adjust footer height */
+  margin-bottom: 60px;
+}
+
+body > .container {
+  padding: 35px 15px 0;
 }
 
 /*increase size of all paragraph elements*/

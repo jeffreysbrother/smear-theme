@@ -10,8 +10,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 html, body {
   overflow-x: hidden; }
 
+html {
+  position: relative;
+  min-height: 100%; }
+
 body {
-  padding-top: 35px; }
+  padding-top: 35px;
+  /* adjust footer height */
+  margin-bottom: 60px; }
+
+body > .container {
+  padding: 35px 15px 0; }
 
 /*increase size of all paragraph elements*/
 p {
@@ -43,17 +52,6 @@ h5 {
 
 .go-back {
   margin-top: 55px; }
-
-html {
-  position: relative;
-  min-height: 100%; }
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px; }
-
-body > .container {
-  padding: 35px 15px 0; }
 
 .footer {
   position: absolute;
