@@ -141,8 +141,8 @@ li.current-menu-item a:visited {
     font-size: 19px;
     color: #B9723F; }
   .blog-content h3 {
-    color: #777;
-    font-family: 'Oswald', sans-serif; }
+    color: #777 !important;
+    font-family: 'Oswald', sans-serif !important; }
   .blog-content div.nav-previous.alignleft,
   .blog-content div.nav-next.alignright {
     display: inline;
