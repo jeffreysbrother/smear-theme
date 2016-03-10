@@ -27,7 +27,7 @@ $randomArray = array(
   'white boy',
   'all the way to Fountain Valley',
   'not allergic to Brazil nuts',
-  'it&#39;s warm, even',
+  '<a href="https://www.youtube.com/watch?v=TF9NQ-VlS9c">it&#39;s warm, even</a>',
   'pancake princess',
   'jealousy pronoun live',
   'fist behind the mountain',
