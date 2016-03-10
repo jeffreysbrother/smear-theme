@@ -49,7 +49,7 @@ $randomArray = array(
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1 class="text-center">I'm James</h1>
-          <p class="lead text-center text-muted"><?php echo $randomArray[mt_rand(0, count($randomArray)-1)]; ?></p>
+          <p class="lead text-center array-text"><?php echo $randomArray[mt_rand(0, count($randomArray)-1)]; ?></p>
         </div>
       </div>
 

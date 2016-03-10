@@ -69,6 +69,9 @@ p {
   .gone p {
     display: none; } }
 
+.array-text {
+  color: #EB642D; }
+
 @media screen and (max-width: 991px) {
   p.lead.text-center {
     margin-bottom: 10px; } }
@@ -138,7 +141,7 @@ li.current-menu-item a:visited {
       color: #555; }
   .blog-content h2.archive-section {
     font-size: 19px;
-    color: #B9723F; }
+    color: #EB642D; }
   .blog-content h3 {
     color: #777 !important;
     font-family: 'Oswald', sans-serif !important; }
