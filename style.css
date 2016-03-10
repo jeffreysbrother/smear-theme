@@ -70,7 +70,7 @@ p {
     display: none; } }
 
 .array-text a {
-  color: #EB642D; }
+  color: #f50; }
 
 @media screen and (max-width: 991px) {
   p.lead.text-center {
@@ -141,7 +141,7 @@ li.current-menu-item a:visited {
       color: #555; }
   .blog-content h2.archive-section {
     font-size: 19px;
-    color: #EB642D; }
+    color: #f50; }
   .blog-content h3 {
     color: #777 !important;
     font-family: 'Oswald', sans-serif !important; }
