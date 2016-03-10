@@ -69,7 +69,7 @@ p {
   .gone p {
     display: none; } }
 
-.array-text {
+.array-text a {
   color: #EB642D; }
 
 @media screen and (max-width: 991px) {
