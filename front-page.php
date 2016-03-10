@@ -30,10 +30,10 @@ $randomArray = array(
   '<a href="https://www.youtube.com/watch?v=TF9NQ-VlS9c">it&#39;s warm, even</a>',
   'pancake princess',
   'jealousy pronoun live',
-  'fist behind the mountain',
+  '<a href="https://youtu.be/Zumz4v4w-to?t=4m16s">fist behind the mountain</a>',
   'fetish pump',
   'metaphysics LOL',
-  'a Democrat walks into a bar',
+  'a Democrat walks into a bar...',
   'Republican daydream',
   'democracy LOL'
 );
