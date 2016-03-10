@@ -14,7 +14,6 @@ $randomArray = array(
   'silky electronic deposit',
   'female opens the door',
   'random thing',
-  'left-handed bitch',
   'hetero',
   'a small fire in a duck',
   'toothwig supreme',
@@ -38,9 +37,6 @@ $randomArray = array(
   'Republican daydream',
   'democracy LOL'
 );
-
-
-
 
  ?>
 
