@@ -33,7 +33,7 @@ p {
   padding-bottom: 50px; }
 
 code#no-pink {
-  background-color: none; }
+  background-color: inherit; }
 
 .footer {
   position: absolute;
