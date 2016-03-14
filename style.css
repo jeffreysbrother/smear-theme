@@ -240,4 +240,12 @@ input[type="submit"] {
   margin-top: 4px;
   letter-spacing: 1px; }
 
+#gform_fields_1 #input_1_1 {
+  padding: .313em 0; }
+#gform_fields_1 li {
+  margin-bottom: 28px; }
+@media screen and (max-width: 767px) {
+  #gform_fields_1 #input_1_5 {
+    width: 100%; } }
+
 /*# sourceMappingURL=style.css.map */

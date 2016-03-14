@@ -1,0 +1,17 @@
+#gform_fields_1 {
+
+  #input_1_1 {
+    padding: .313em 0;
+  }
+
+  li {
+    margin-bottom: 28px;
+  }
+
+  #input_1_5 {
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+
+}
