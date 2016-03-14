@@ -1,17 +1,24 @@
 #gform_fields_1 {
 
+
+  // make dropdown padding equal to that of the text input fields
   #input_1_1 {
     padding: .313em 0;
   }
 
+  // set bottom margin on all forms (for space between forms)
   li.gfield {
     margin-bottom: 28px;
   }
 
+  // make name text field 100% width in small viewports
   #input_1_5 {
     @media screen and (max-width: 767px) {
       width: 100%;
     }
   }
+
+
+
 
 }
