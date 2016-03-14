@@ -162,6 +162,8 @@ li.current-menu-item a:visited {
     @media screen and (max-width: 991px) {
       .blog-content blockquote {
         margin: 20px 0 20px 10px; } }
+  .blog-content div.crayon-pre {
+    padding: 9px; }
   .blog-content div#respond h3 {
     text-transform: uppercase;
     font-size: 18px;

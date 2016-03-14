@@ -43,6 +43,11 @@
     }
   }
 
+  // increase padding where the crayon syntax highlighter is used with monospace/dark terminal theme
+  div.crayon-pre {
+    padding: 9px;
+  }
+
   /*comment styles******************************/
 
   div#respond h3 {
