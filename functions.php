@@ -13,7 +13,6 @@
 
 
   function jb_theme_styles() {
-    wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
     wp_enqueue_style( 'blueimp-css', '//blueimp.github.io/Gallery/css/blueimp-gallery.min.css' );
     wp_enqueue_style( 'gallery', get_template_directory_uri() . '/css/bootstrap-image-gallery.min.css' );
