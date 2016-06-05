@@ -1,7 +1,7 @@
 ##Simple WordPress Theme##
 
 * Bootstrap
-* Sass (utilizing partial files, nested rules, local media queries, the current parent selector)
+* Sass
 * Grunt (for Sass compilation with grunt-contrib-sass and grunt-contrib-watch)
 * HTML5 audio
 * blueimp image gallery by [Sebastian Tschan](https://github.com/blueimp/)
