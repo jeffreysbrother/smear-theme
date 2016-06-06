@@ -109,6 +109,9 @@ h1.entry-title.mellow-title {
   max-width: 367px;
   text-transform: lowercase; }
 
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+  display: none !important; }
+
 @media (max-width: 440px) {
   textarea {
     width: 100%;

@@ -35,6 +35,11 @@ h1.entry-title.mellow-title {
   text-transform: lowercase;
 }
 
+// do not show the main error message (since individual ones will suffice)
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+  display: none!important;
+}
+
 
 // these media queries might also affect the form for blog comment submissions ////////
 @media (max-width: 440px) {
