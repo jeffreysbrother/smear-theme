@@ -40,18 +40,6 @@
     wp_enqueue_script( 'image-gallery-js', get_template_directory_uri() . '/js/bootstrap-image-gallery.min.js', array('jquery'), '', true );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
     wp_enqueue_script( 'gist', get_template_directory_uri() . '/js/gist-embed.min.js', array('jquery'), '', true );
-    wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true );
+    // wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true );
   }
   add_action( 'wp_enqueue_scripts', 'jb_theme_js' );
-
-
-  // Defer jQuery Parsing using the HTML5 defer property
-  // if (!(is_admin() )) {
-  //     function defer_parsing_of_js ( $url ) {
-  //         if ( FALSE === strpos( $url, '.js' ) ) return $url;
-  //         if ( strpos( $url, 'jquery.min.js' ) ) return $url;
-  //         // return "$url' defer ";
-  //         return "$url' defer onload='";
-  //     }
-  //     add_filter( 'clean_url', 'defer_parsing_of_js', 11, 1 );
-  // }
