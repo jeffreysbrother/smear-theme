@@ -40,6 +40,15 @@ form#commentform label {
   display: block;
 }
 
+// get rid of safari form styling on ios
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+input[type=submit] {
+    -webkit-border-radius:0px;
+}
+
 
 // these media queries might also affect the form for blog comment submissions ////////
 @media (max-width: 440px) {
