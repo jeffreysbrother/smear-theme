@@ -56,6 +56,8 @@
   </div>
 </div>
 
+<?php get_footer(); ?>
+
 <script type="text/javascript">
 //noconflict wrapper:
   jQuery(document).ready(function($) {
@@ -67,8 +69,3 @@
         });
   });
 </script>
-
-
-
-
-<?php get_footer(); ?>
