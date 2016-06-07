@@ -40,6 +40,10 @@ div.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
   display: none!important;
 }
 
+form#commentform label {
+  display: block;
+}
+
 
 // these media queries might also affect the form for blog comment submissions ////////
 @media (max-width: 440px) {
