@@ -28,16 +28,12 @@ div.wpcf7-mail-sent-ok {
 
 div.wpcf7-response-output {
   text-align: center;
+  display: none!important;
 }
 
 h1.entry-title.mellow-title {
   max-width: 367px;
   text-transform: lowercase;
-}
-
-// do not show the main error message (since individual ones will suffice)
-div.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
-  display: none!important;
 }
 
 form#commentform label {
