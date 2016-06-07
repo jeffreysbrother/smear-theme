@@ -43,10 +43,6 @@ form#commentform label {
 // get rid of safari form styling on ios
 input, textarea {
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
-}
-input[type=submit] {
-    -webkit-border-radius:0px;
 }
 
 
