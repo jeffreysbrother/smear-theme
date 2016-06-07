@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jeffreysbrother/smear-theme#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^0.6.1"
   }

@@ -5,6 +5,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     sass: {
       dist: {
+        options: {
+          style: 'compressed'
+        },
         files: {
           'style.css' : 'sass/main.scss'
         }
@@ -16,14 +19,25 @@ module.exports = function(grunt) {
         tasks: ['sass']
       }
     }
+    // cssmin: {
+    //   target: {
+    //     files: [{
+    //     expand: true,
+    //     cwd: '/',
+    //     src: 'tmp/style.css',
+    //     dest: 'style.css'
+    //   }]
+    //   }
+    // }
 
   });
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'watch']);
+  grunt.registerTask('default', ['watch', 'sass']);
 
 };
