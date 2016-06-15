@@ -8,7 +8,6 @@
     <title>jeffreysbrother | music, etc</title>
     <meta name="author" content="James Cool">
     <link rel="icon" href="../../favicon.ico">
-    <!-- <script src="https://use.fontawesome.com/1dfd33ab68.js"></script> -->
     <?php wp_head(); ?>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
