@@ -58,6 +58,20 @@
 
 <?php get_footer(); ?>
 
+<!-- LOOP -->
+<script type="text/javascript">
+    function init() {
+        var myAudio = document.getElementById("audio");
+        myAudio.addEventListener('ended', loopAudio, false);
+    }
+    function loopAudio() {
+        var myAudio = document.getElementById("audio");
+        myAudio.play();
+    }
+</script>
+
+
+<!-- ONLY PLAY ONE TRACK AT A TIME -->
 <script type="text/javascript">
 //noconflict wrapper:
   jQuery(document).ready(function($) {

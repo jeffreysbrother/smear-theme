@@ -16,7 +16,7 @@
     <![endif]-->
   </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onload="init();">
 
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
