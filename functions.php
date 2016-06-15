@@ -36,7 +36,6 @@
 
 
   function jb_theme_js() {
-    wp_enqueue_script( 'fontawesome', get_template_directory_uri() . 'https://use.fontawesome.com/1dfd33ab68.js', false, '', false );
     wp_enqueue_script( 'blueimp-js', '//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js', array('jquery'), '', true );
     wp_enqueue_script( 'image-gallery-js', get_template_directory_uri() . '/js/bootstrap-image-gallery.min.js', array('jquery'), '', true );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
