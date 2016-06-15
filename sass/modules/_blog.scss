@@ -3,9 +3,9 @@
   // blog post title:
   h2 a.blog-link {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: #777;
-    font-family: 'Oswald', sans-serif;
+    // font-family: 'Oswald', sans-serif;
     &:hover {
       color: #555;
     }
@@ -20,7 +20,7 @@
   // blog subheading style
   h3 {
     color: #777 !important;
-    font-family: 'Oswald', sans-serif !important;
+    // font-family: 'Oswald', sans-serif !important;
   }
 
   div.nav-previous.alignleft,
@@ -48,7 +48,7 @@
   div#respond h3 {
     text-transform: uppercase;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
+    // font-family: 'Oswald', sans-serif;
     color: #777;
   }
 
