@@ -16,15 +16,17 @@
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
     wp_enqueue_style( 'blueimp-css', '//blueimp.github.io/Gallery/css/blueimp-gallery.min.css' );
     wp_enqueue_style( 'gallery', get_template_directory_uri() . '/css/bootstrap-image-gallery.min.css' );
+    wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
     wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
   }
   add_action( 'wp_enqueue_scripts', 'jb_theme_styles' );
 
 
-  function font_awesome() {
-    wp_enqueue_script( 'fawesome', 'https://use.fontawesome.com/1dfd33ab68.js', false, '', false );
-  }
-  add_action( 'wp_enqueue_scripts', 'font_awesome' );
+  // I think this may have been slowing down load time a bit
+  // function font_awesome() {
+  //   wp_enqueue_script( 'fawesome', 'https://use.fontawesome.com/1dfd33ab68.js', false, '', false );
+  // }
+  // add_action( 'wp_enqueue_scripts', 'font_awesome' );
 
 
   //try to add jQuery (my app.js file doesn't work without this section)
