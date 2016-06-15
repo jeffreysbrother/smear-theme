@@ -22,13 +22,6 @@
   add_action( 'wp_enqueue_scripts', 'jb_theme_styles' );
 
 
-  // I think this may have been slowing down load time a bit
-  // function font_awesome() {
-  //   wp_enqueue_script( 'fawesome', 'https://use.fontawesome.com/1dfd33ab68.js', false, '', false );
-  // }
-  // add_action( 'wp_enqueue_scripts', 'font_awesome' );
-
-
   //try to add jQuery (my app.js file doesn't work without this section)
   function include_jQuery() {
     if (!is_admin()) {
@@ -46,6 +39,5 @@
     wp_enqueue_script( 'image-gallery-js', get_template_directory_uri() . '/js/bootstrap-image-gallery.min.js', array('jquery'), '', true );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
     wp_enqueue_script( 'gist', get_template_directory_uri() . '/js/gist-embed.min.js', array('jquery'), '', true );
-    // wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true );
   }
   add_action( 'wp_enqueue_scripts', 'jb_theme_js' );
