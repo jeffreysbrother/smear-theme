@@ -22,6 +22,11 @@
   }
   add_action( 'wp_enqueue_scripts', 'jb_theme_styles' );
 
+  function font_awesome() {
+    wp_enqueue_script( 'fawesome', 'https://use.fontawesome.com/1dfd33ab68.js', false, '', false );
+  }
+  add_action( 'wp_enqueue_scripts', 'font_awesome' );
+
 
   //try to add jQuery (my app.js file doesn't work without this section)
   function include_jQuery() {
