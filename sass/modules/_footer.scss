@@ -21,6 +21,7 @@
   a {
     padding-left: 10px;
     padding-right: 10px;
+    display: inline-block;
   }
   @media screen and (max-width: 991px) {
     padding-top: 13px;
@@ -29,6 +30,7 @@
 
 .pull-down-text {
   padding-top: 23px;
+  margin-bottom: 0;
 }
 
 .center {
