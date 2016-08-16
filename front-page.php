@@ -48,7 +48,7 @@ $randomArray = array(
 
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <h1 class="text-center"><?php echo the_content(); ?></h1>
+          <h1 class="text-center"><?php the_content(); ?></h1>
           <p class="lead text-center text-muted array-text"><?php echo $randomArray[mt_rand(0, count($randomArray)-1)]; ?></p>
         </div>
       </div>
