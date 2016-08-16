@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-sm-4 center last-paragraph">
 
-          <h1 class="mellow-title">original music</h1>
+          <h1 class="mellow-title"><?php echo the_title(); ?></h1>
 
           <h5>OP. 1 NO. 1</h5>
           <audio src="/wp-content/themes/smear/audio/Op1_No1.mp3" controls>
