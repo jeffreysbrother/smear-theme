@@ -12,11 +12,6 @@
 
       <p class="text-muted">One thing I'd really like to do is bring attention to certain widespread misconceptions regarding the nature of philosophical inquiry. Individuals from neighboring disciplines have only a pathetic grasp of what it is; people actively engaged in its study often ignore or fail to see the emptiness of certain questions. Common explanations concerning, for example, the relationship between science and philosophy and the purported "unanswerable" nature of philosophical questions are hasty and malformed. However, certain things like beer, JavaScript, and music will likely prevent me from doing anything useful with this information.</p>
 
-      <?php $meta_value = get_post_meta($post->ID, 'something', true);
-        if (!empty($meta_value)) {
-          echo '<p>' . $meta_value . '</p>';
-        } ?>
-
     </div>
   </div>
 
