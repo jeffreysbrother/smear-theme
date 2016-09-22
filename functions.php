@@ -56,7 +56,7 @@ function my_theme_wrapper_start() {
 function my_theme_wrapper_end() {
   echo '</div>';
   echo '</div>';
-  echo '</div>';
+  echo '</div>'; 
 }
 
 // declare WooCommerce support
