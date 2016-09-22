@@ -54,9 +54,9 @@ function my_theme_wrapper_start() {
   echo '<div class="lg-col-12">'
 }
 function my_theme_wrapper_end() {
-  echo '</div>';
-  echo '</div>';
   echo '</div>'; 
+  echo '</div>';
+  echo '</div>';
 }
 
 // declare WooCommerce support
